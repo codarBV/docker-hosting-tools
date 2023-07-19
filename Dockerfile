@@ -1,4 +1,4 @@
-FROM rclone/rclone:1.62.2 AS rclone
+FROM rclone/rclone:1.63.1 AS rclone
 FROM kopia/kopia:20230612.0.203455 AS kopia
 FROM alpine:20230329 AS base
 
