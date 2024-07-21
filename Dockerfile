@@ -1,6 +1,6 @@
 FROM rclone/rclone:1.63.1 AS rclone
 FROM kopia/kopia:20240720.0.213037 AS kopia
-FROM alpine:20230329 AS base
+FROM alpine:20240606 AS base
 
 LABEL org.opencontainers.image.title "Hosting tools"
 LABEL org.opencontainers.image.description "Hosting tools, rsync, restic, kopia, rclone, imagemagick, git, xz, ca-certificates, mariadb-client, wget, curl, openssh-client, rsync"
