@@ -1,5 +1,5 @@
 FROM docker.io/rclone/rclone:1.67.0 AS rclone
-FROM docker.io/kopia/kopia:0.17.0 AS kopia
+FROM docker.io/kopia/kopia:20240804.0.190504 AS kopia
 FROM docker.io/restic/restic:0.17.0 AS restic
 FROM cgr.dev/chainguard/wolfi-base
 
