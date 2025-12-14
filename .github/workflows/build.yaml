@@ -5,8 +5,8 @@ on:
     tags:
       - 'v*.*.*'
   # schedule 2 weekly on Sunday at 4:05 AM UTC
-  schedule:
-    - cron: '5 4 * * 0'
+  #schedule:
+  #  - cron: '5 4 * * 0'
   release:
     types: [published]
   workflow_dispatch:
